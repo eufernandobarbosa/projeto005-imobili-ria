@@ -73,25 +73,26 @@ header {
   }
 }
 
-/* Estilos para a seção de imóveis */
-.imoveis {
-  display: flex;
-  justify-content: space-between;
-  /* Espaço igual entre os elementos */
-  flex-wrap: wrap;
-  margin-bottom: 40px;
-  /* Aumenta a margem inferior para criar espaço */
-  height: 400px;
-  /* Remova a altura fixa para que a seção cresça conforme o conteúdo */
+
+
+#properties h2 {
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
-.elemento {
-  width: calc(25% - 20px);
-  /* Define a largura de cada elemento (25% para que fiquem em 4 colunas) */
-  height: 100px;
-  border: 1px solid black;
-  margin-bottom: 20px;
-  /* Espaçamento inferior entre os elementos */
+@media (max-width: 991px) {
+  .property {
+    width: 48%;
+  }
+  .property img {
+    width: 100%; /* Redimensionar as imagens para ocupar 100% da largura do container */
+  }
+}
+
+@media (max-width: 767px) {
+  .property {
+    width: 100%;
+  }
 }
 
 /* Estilos para a seção "Sobre Mim" */
