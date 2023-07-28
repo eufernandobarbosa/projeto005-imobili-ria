@@ -110,8 +110,7 @@ header {
   border: 2px solid #333;
 }
 
-/* Estilos para o formulário de contato */
-/* Estilos para o formulário de contato */
+
 #contato {
   display: flex;
   flex-direction: column;
@@ -121,6 +120,7 @@ header {
   justify-content: center;
   /* Centraliza verticalmente os elementos */
 }
+
 
 #form-container {
   max-width: 600px;
