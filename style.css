@@ -74,13 +74,30 @@ header {
 }
 
 
+/*Aqui secção properieties, no qual estou tendo um pouco de trabalho pra organizar */
+/*=========================================================================================*/
 
-#properties h2 {
-  text-align: center;
-  margin-bottom: 2rem;
+
+ h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ .container{
+  display: flex;
+}
+
+.property{
+  margin:20px;
+
 }
 
 @media (max-width: 991px) {
+   .container{
+    display: block;
+   }
+
   .property {
     width: 48%;
   }
@@ -90,12 +107,14 @@ header {
 }
 
 @media (max-width: 767px) {
+  
+  
   .property {
     width: 100%;
   }
 }
 
-/* Estilos para a seção "Sobre Mim" */
+/*======================================================================================*/
 .sobremim {
   display: flex;
   flex-direction: row;
@@ -186,6 +205,12 @@ button.rounded:hover {
   text-align: center;
 }
 
+.containerfooter{
+  display: flex;
+  text-align: center;
+
+}
+
 .footer a {
   color: #080101;
   text-decoration: none;
@@ -193,4 +218,5 @@ button.rounded:hover {
 
 .footer a:hover {
   text-decoration: underline;
+  background-color: #f0f0f0;
 }
