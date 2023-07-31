@@ -1,140 +1,143 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vinicius Figueiredo</title>
 
-    <link rel="stylesheet" href="style.css">
-    <script defer src="script.js"></script>
-  
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vinicius Figueiredo</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+
 <body>
-    <header>
-      <div class="flex container">
-        <div class="logo-container">
-          <a id="logo" href="#">Vinicius Figueireido</a>
+  <header>
+    <div class="flex container">
+      <div class="logo-container">
+        <a id="logo" href="#">Vinicius Figueireido</a>
+      </div>
+      <div class="menu-container">
+        <div id="nav-menu-button">
+          <i class="fas fa-bars"></i>
         </div>
-        <div class="menu-container">
-          <div id="nav-menu-button">
-            <i class="fas fa-bars"></i>
-          </div>
-          <nav>
-            <ul id="nav-menu">
-              <li><a href="#" class="active">Home</a></li>
-              <li><a href="#">Imóveis</a></li>
-              <li><a href="#">Sobre mim</a></li>
-              <li><a href="#">Contato</a></li>
-            </ul>
-          </nav>
-        </div>
+        <nav>
+          <ul id="nav-menu">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Imóveis</a></li>
+            <li><a href="#">Sobre mim</a></li>
+            <li><a href="#">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+  </header>
+
+  <section id="properties">
+
+    <h2>Imóveis</h2>
+
+    <div class="container">
+
+
+      <div class="property">
+        <img src="img/img01.jpg" alt="Imóvel 1" />
+        <p>*Preço *Tamanho *metros m² *endereço </p>
       </div>
 
-    </header>
+      <div class="property">
+        <img src="img/img02.jpg" alt="Imóvel 2" />
+        <p>*Preço *Tamanho *metros m² *endereço </p>
+      </div>
 
-    <section id="properties">
 
-      <h2>Imóveis</h2>
+      <div class="property">
+        <img src="img/img03.jpg" alt="Imóvel 3" />
+        <p>*Preço *Tamanho *metros m² *endereço </p>
+      </div>
 
-      <div class="container">
-           
+      <div class="property">
+        <img src="img/img04.jpg" alt="Imóvel 4" />
+        <p>*Preço *Tamanho *metros m² *endereço </p>
+      </div>
 
-          <div class="property">
-            <img src="img/img01.jpg" alt="Imóvel 1" />
-            <p>*Preço *Tamanho *metros m² *endereço </p>
+    </div>
+
+
+  </section>
+
+
+  <section class=sobremim id="sobre-mim">
+
+
+    <img src="img/avatar vinicius.png" alt="Foto Vinicius" class="minha-imagem" />
+
+
+    <div class="fihodosobremim">
+      <h2>Sobre mim!</h2>
+      <p> dolor sit amet consectetur adipisicing elit.</p>
+      <p>Est qui eos quasi ratione nostrum excepturi id recusandae fugit omnis ullam pariatur itaque
+        nisi voluptas impedit Quo suscipit omnis iste velit maxime.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit molestias adipisci <br>
+        impedit voluptates, doloribus sapiente. Laborum et accusantium fugit omnis minus amet aliquam eaque. Deserunt ut
+        commodi dolor optio? Illum!</p>
+    </div>
+
+  </section>
+
+  <section id="contato">
+
+    <div id="form-container">
+      <h3>Formulário de contato<h3>
+          <div class="form-fields">
+            <form>
+              <label for="name">Name</label>
+              <input type="text" id="name" />
+
+              <label for="email">Email</label>
+              <input type="text" id="email" />
+
+              <label for="message">Message</label>
+              <textarea id="message">Write your message here..</textarea>
+
+              <button class="rounded">Send Message</button>
+            </form>
+
           </div>
 
-          <div class="property">
-            <img src="img/img02.jpg" alt="Imóvel 2" />
-            <p>*Preço *Tamanho *metros m² *endereço </p>
-          </div>
+    </div>
 
-              
-          <div class="property">
-            <img src="img/img03.jpg" alt="Imóvel 3" />
-            <p>*Preço *Tamanho *metros m² *endereço </p>
-          </div>
+    <div id="endereco-dados">
+      <label>Address</label>
+      <address>
+        20377 Evergreen Terrace Mountain View, California, USA
+      </address>
 
-          <div class="property">
-            <img src="img/img04.jpg" alt="Imóvel 4" />
-            <p>*Preço *Tamanho *metros m² *endereço </p>
-          </div>
+      <label>Phone</label>
+      <a href="#">232-232-2323</a>
 
-        </div>
-  
+      <label>Email Address</label>
+      <a href="#">ouremail@domain.com</a>
 
-    </section>
-
-
-    <section class=sobremim id="sobre-mim">
-        
-
-        <img src="img/avatar vinicius.png" alt="Foto Vinicius" class="minha-imagem" />
-    
-        
-            <div class="fihodosobremim">
-                <h2>Sobre mim!</h2>
-                <p> dolor sit amet consectetur adipisicing elit.</p>
-                <p>Est qui eos quasi ratione nostrum excepturi id recusandae fugit omnis ullam pariatur itaque
-                     nisi voluptas impedit Quo suscipit omnis iste velit maxime.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit molestias adipisci <br>
-                    impedit voluptates, doloribus sapiente. Laborum et accusantium fugit omnis minus amet aliquam eaque. Deserunt ut commodi dolor optio? Illum!</p>
-            </div>
-        
-    </section>
-
-    <section id="contato">
-  
-                 <div id="form-container">
-                   <h3>Formulário de contato<h3>
-                     <div class="form-fields"> 
-                      <form>
-                        <label for="name">Name</label>
-                        <input type="text" id="name" />
-
-                        <label for="email">Email</label>
-                        <input type="text" id="email" />
-
-                        <label for="message">Message</label>
-                        <textarea id="message">Write your message here..</textarea>
-
-                        <button class="rounded">Send Message</button>
-                    </form>
-
-                     </div>
-
-                </div>
-
-                <div id="endereco-dados">
-                  <label>Address</label>
-                  <address>
-                      20377 Evergreen Terrace Mountain View, California, USA 
-                  </address>
-      
-                  <label>Phone</label>
-                  <a href="#">232-232-2323</a>
-      
-                  <label>Email Address</label>
-                  <a href="#">ouremail@domain.com</a>
-      
-                  <div id="mapa-responsivo"></div>
-                  <!--Em breve criar uma mini maps para pessoas clicarem em abrirem o googles maps, 
+      <div id="mapa-responsivo"></div>
+      <!--Em breve criar uma mini maps para pessoas clicarem em abrirem o googles maps, 
                   para achar a localização exata no google maps\\ 
                   -->
-                  </div>
+    </div>
 
-    </section>
+  </section>
 
-    <section class="footer">
-        <div class="containerfooter">
-          <p>&copy; 2023 SeuSite.com. Todos os direitos reservados.</p>
-          <p>Desenvolvido por: <a href="#">Fernando Barbosa</a></p>
-        </div>
-      </section>
-      
+  <section class="footer">
+    <div class="containerfooter">
+      <p>&copy; 2023 SeuSite.com. Todos os direitos reservados.</p>
+      <p>Desenvolvido por: <a href="#">Fernando Barbosa</a></p>
+    </div>
+  </section>
+
 
 
 
 
 
 </body>
+
 </html>
